@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "variables.css";
+/*components*/
+@import "components/status-bar.css";
+/*screens*/
+@import "screens/login.css";
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
