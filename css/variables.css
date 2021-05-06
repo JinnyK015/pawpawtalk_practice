@@ -2,5 +2,15 @@
     --lightblue: #6A8CC3;
     --classicblue:#35558A;
     --babyblue:#B2C7D5;
-    --monument:#7D868A;
+    --midgrey:#7D868A;
+    --lightgrey:#aebbc0;
+    --brown:#A18F81;
+
+    --greytrans:rgba(0, 0, 0, 0.7);
+
+    --horizontalspace: 16px;
+    --frameline: 1px solid rgba(0, 0, 0, 0.2);
+    
 }
+
+

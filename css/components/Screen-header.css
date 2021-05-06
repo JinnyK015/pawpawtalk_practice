@@ -1,0 +1,21 @@
+.Screen-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 16px 20px 16px;
+    margin-bottom: 15px;
+}
+
+.Screen-header__title{
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+.Screen-header__icon{
+    padding: 10px 0px;
+}
+
+.Screen-header__icon span{
+    margin: 10px;
+    position: relative;
+}

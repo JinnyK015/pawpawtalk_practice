@@ -1,0 +1,38 @@
+.more-screen .icons__row{
+    margin-top: 20px;
+}
+
+.more-suggestion{
+    margin-top: 20px;
+    border-top: var(--frameline);
+}
+
+.more-suggestion__title{
+    margin: 16px 0;
+    font-weight: 600;
+}
+
+.more-suggestion__icon-row{
+    display:flex;
+   
+}
+
+.more-suggestion__icon {
+    margin: 6px 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.more-suggestion__icon img{
+    width: 90px;
+    height: 90px;
+    border-radius:30%;
+}
+
+.more-suggetion__icon-txt{
+    text-align: center;
+    margin:6px 0px;
+}

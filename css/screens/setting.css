@@ -1,0 +1,17 @@
+
+
+.setting__setting {
+    padding: 20px 0;
+    font-size: 20px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    display:flex;
+    justify-content:space-between;
+}
+
+.setting-icon{
+    margin:0 20px;
+}
+
+.setting__setting-column-sub{
+   opacity:0.5;
+}

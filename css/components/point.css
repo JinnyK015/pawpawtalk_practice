@@ -1,0 +1,16 @@
+.point__new{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: tomato;
+    display:flex;
+    position: absolute;
+    left:32px;
+    bottom: 26px;
+
+}
+
+.point__move{
+    left:24px;
+    bottom: 22px
+}

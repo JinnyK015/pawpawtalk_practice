@@ -2,9 +2,30 @@
 @import "variables.css";
 /*components*/
 @import "components/status-bar.css";
+@import "components/nav.css";
+@import "components/Screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/point.css";
+@import "components/icons-row.css";
+@import "components/alt-screen-header.css";
+@import "components/reply.css";
+
 /*screens*/
 @import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/setting.css";
+@import "screens/chat.css";
+
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-screen{
+    padding:2px var(--horizontalspace);
+    display: flex;
+    flex-direction: column;
 }
