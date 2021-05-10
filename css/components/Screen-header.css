@@ -13,9 +13,26 @@
 }
 .Screen-header__icon{
     padding: 10px 0px;
+    color: var(--classicblue);
 }
 
 .Screen-header__icon span{
     margin: 10px;
     position: relative;
+}
+
+
+@keyframes spincogAni {
+    from{
+        transform:none;
+    }
+    to{
+        transform:rotateZ(360deg);
+    }
+}
+
+
+.Screen-header__icon .fa-cog:hover {
+    animation: spincogAni 3s ease-in-out infinite;
+
 }

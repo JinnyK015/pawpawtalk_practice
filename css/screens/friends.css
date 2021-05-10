@@ -34,6 +34,18 @@
     color:rgba(0, 0, 0, 0.5);
 }
 
+
+
+@keyframes hideSplashscreen {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
 .splash__screen {
     position: absolute;
     width: 100vw;
@@ -41,10 +53,84 @@
     background-color: var(--babyblue);
     top: 0;
     display: flex;
-    justify-content:center;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    font-size: 120px;
+   
     color:white;
     z-index:3;
+    animation: 0.3s hideSplashscreen forwards;
+    animation-delay: 2.8s;
 }
+.splash__screen>i {
+    font-size: 120px;
+    animation: blurInAni 2s forwards 1s;
+}
+
+.splash__screen span{
+    margin-top: 10px;
+    font-size: 24px;
+    animation: blurAni 2.0s forwards;
+}
+
+@keyframes blurInAni  {
+    from{
+        filter: none;
+    }
+    to{
+        filter: drop-shadow( 0px 0px 10px white);
+    }
+}
+
+@keyframes blurAni {
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    100%{
+        filter: drop-shadow( 0px 0px 5px white);
+        opacity: 1;
+    }
+}
+.splash__screen-loading{
+    display:flex;
+    flex-direction:column;
+    width: 40px;
+    font-size:20px;
+    margin-top: 20px;
+    animation:blurInAni 1s forwards 1s;
+
+}
+
+.splash__screen-loading :nth-child(2n+2){
+   align-self: flex-end;
+}
+.splash__screen-loading :first-child{
+    animation: stepAni 1.6s ease-in-out }
+  
+.splash__screen-loading :nth-child(2){
+ animation: stepAni 1.2s ease-in-out }
+
+ .splash__screen-loading :nth-child(3){
+    animation: stepAni 0.8s ease-in-out }
+
+ .splash__screen-loading :nth-child(4){
+  animation: stepAni 0.4s ease-in-out }
+
+.splash__screen-loading :last-child{
+  animation: stepAni 0s ease-in-out }
+
+@keyframes stepAni {
+    0%{
+        opacity: 0;
+    }
+  
+    100%{
+        opacity: 1;
+    }
+}
+
+
 

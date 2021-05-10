@@ -8,6 +8,7 @@
     box-sizing: border-box;
     position: fixed;
     bottom: 0;
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -22,13 +23,12 @@
     position: relative;
 }
 
-
-
 .reply__column input {
     width: 90%;
     height: 40px;
     border: var(--frameline);
     border-radius: 20px;
+    transition: all 0.2s ease-in-out; 
    
 }
 
@@ -46,6 +46,7 @@
     width: 36px;
     height: 36px;
     border-radius: 50%;
+    transition: all 0.3s ease-in-out; 
 }
 
 .reply__column:last-child > i,
@@ -53,6 +54,7 @@
     position: absolute;
     right: -14px;
     bottom: 3px;
+    transition: all 0.3s ease-in-out; 
 }
 
 .reply__column:last-child > i {
@@ -65,4 +67,28 @@
 .reply__column button:focus,
 .reply__column button:active{
     outline: none;
+}
+
+
+
+
+.reply .reply__column:first-child,
+.reply .fa-smile-wink,
+.reply button {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-smile-wink,
+.reply:focus-within button {
+  opacity: 0;
+}
+
+.reply:focus-within input {
+  width: 91vw;
+  transform: translateX(-5%) translateY(-80px);
+}
+
+.reply:focus-within {
+  transform: translateY(80px);
 }

@@ -1,5 +1,4 @@
 
-
 .setting__setting {
     padding: 20px 0;
     font-size: 20px;
@@ -10,8 +9,20 @@
 
 .setting-icon{
     margin:0 20px;
+   
 }
 
 .setting__setting-column-sub{
    opacity:0.5;
+}
+
+
+.setting__setting:last-child{
+   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+.setting__setting:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }

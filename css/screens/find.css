@@ -38,7 +38,7 @@
     font-size: 20px;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
+    padding: 5px 5px 5px 5px;
 
 }
 
@@ -115,3 +115,34 @@
 .open-post__photo:last-of-type span{
     margin-left: 7px;
 }
+
+
+@keyframes heartBeat {
+    0% {
+      color: white;
+      transform: none;
+    }
+    50% {
+      color: tomato;
+      transform: scale(1.7);
+    }
+    100% {
+      color: white;
+      transform: none;
+    }
+  }
+  
+  .open-post__photo:hover i {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+  }
+
+  .open-post:hover {
+    background-color: rgba(0,0,0,0.1);
+    border:5px dashed rgba(0,0,0,0.2);
+    border-radius: 20px;
+    
+    cursor: pointer;
+
+  }
+
