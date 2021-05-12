@@ -2,9 +2,10 @@
     position: absolute;
     z-index: 99;
     height: 100vh;
-    background-color: var(--babyblue);
+    background-color: var(--classicblue);
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 32px;
@@ -15,4 +16,26 @@
     #no-mobile {
       display: none;
     }
+  }
+
+  #no-mobile img{
+    width:30%;
+  }
+
+  #no-mobile img:last-child{
+    width:30%;
+    transform: rotateY(180deg);
+  }
+
+  #no-mobile span{
+    font-size: 36px;
+    font-weight: bold;
+    padding:10px;
+    color:white;
+    hyphens: manual;
+  }
+
+  
+  #no-mobile span i{
+    font-size:26px;
   }
