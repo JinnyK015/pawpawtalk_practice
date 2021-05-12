@@ -2,7 +2,6 @@
 .setting__setting {
     padding: 20px 0;
     font-size: 20px;
-    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
     display:flex;
     justify-content:space-between;
 }
@@ -18,7 +17,7 @@
 
 
 .setting__setting:last-child{
-   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+   border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
 }
 
 
@@ -27,48 +26,25 @@
     cursor: pointer;
 }
 
-
-.error__screen{
-    display: flex;
-    flex-direction: column;
+.setting-logout{
+    display:flex;
     justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    color: var(--classicblue);
+    align-items:center;
 }
 
-.error__screen>i {
-    font-size: 120px;
-    
-}
 
-.error__screen span{
-    font-size:50px;
-    font-weight: bold;
+.setting-logout button{
 
-}
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:10px 60px;
+    border-radius: 20px;
+    background-color: var(--babyblue);
 
-.error__screen a{
-    margin-top:16px;
-    font-weight: bold;
-}
-
-.error__screen a:hover{
-    animation: blurcolorAni 0.5s forwards;
-}
-
-.error__screen h5 {
     margin-top:20px;
-}
-
-@keyframes blurcolorAni  {
-    from{
-        filter: none;
-        color: var(--classicblue);
-    }
-    to{
-        filter: drop-shadow( 0px 0px 5px var(--classicblue));
-        color: white;
-    }
+    font-size: 20px;
+    font-weight:bold;
+    color:white;
+    border: 4px dashed white ;
 }
