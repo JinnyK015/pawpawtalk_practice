@@ -59,6 +59,23 @@
    
 
 
+   .channel-icon{
+       width: 70px;
+       height: 70px;
+       display: flex;
+       justify-content:center;
+       align-items: center;
+       border-radius: 20px;
+       background-color: var(--babyblue);
+       margin-right:14px;
+   }
+   .channel-icon i{
+       font-size: 28px;
+        color:white;
+
+    }
+
+
 /*---splash screen--*/
 .splash__screen {
     position: absolute;
