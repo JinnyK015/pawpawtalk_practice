@@ -29,6 +29,21 @@
     margin: 0px 5px;
     color:green;
 }
+.status-bar__column .fa-paw{
+    margin: 0px 5px;
+   color: var(--classicblue);
+    animation: crazyAni 2s infinite;
+}
+
+@keyframes crazyAni {
+    from{
+        filter:hue-rotate(0);
+    }
+    to{
+        filter:hue-rotate(360deg);
+    }
+    
+}
 
 
 .welcon-header{
