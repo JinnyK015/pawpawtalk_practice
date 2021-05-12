@@ -24,7 +24,6 @@
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height:105vh;
 }
 
 .main-screen{
@@ -32,5 +31,6 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    height:110vh;
   
 }
