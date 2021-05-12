@@ -21,18 +21,93 @@
     margin: 6px 20px;
     display: flex;
     flex-direction: column;
-    align-content: center;
     justify-content: center;
     
 }
 
-.more-suggestion__icon img{
+.icon-box{
     width: 90px;
     height: 90px;
     border-radius:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lightblue);
+
+}
+.more-suggestion__icon i{
+font-size: 50px;
+    color:white;
+}
+.more-suggestion__icon i:hover{
+    animation: filpAni 1s infinite ease-in-out;
+    cursor: pointer;
 }
 
+@keyframes filpAni {
+    from{
+        transform:rotate(0);
+    }
+    to{
+        transform:rotateY(360deg);
+    }
+}
 .more-suggetion__icon-txt{
     text-align: center;
     margin:6px 0px;
+}
+
+.more-ad {
+    display: flex;
+    position: relative;
+}
+
+.more-ad img{
+    width: 94vw;
+    border-radius:20px;
+}
+
+#iconAd{
+    position: absolute;
+    right:20px;
+    top:10px;
+    padding: 5px 10px;
+    background-color:rgba(255, 99, 71, 0.767);
+    border-radius: 10px;
+    color:white;
+
+}
+#textAd{
+    position: absolute;
+    left:50px;
+    bottom:80px;
+    color:white;
+    font-size:36px;
+    font-style: oblique;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:rgba(218, 165, 32, 0.726);
+    padding:5px;
+
+}
+
+.more-ad:hover{
+    animation: drugAni 1s infinite ;
+}
+
+@keyframes drugAni {
+    0%{  filter: hue-rotate(90deg);
+        transform:scale(1);
+
+    }
+    25%{  filter: hue-rotate(180deg);
+        transform:scale(1.02);
+    }
+    75%{  filter: hue-rotate(270deg);
+
+    }
+    100%{  filter: hue-rotate(360deg);
+
+    }
+    
 }

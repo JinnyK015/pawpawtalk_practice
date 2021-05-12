@@ -18,6 +18,8 @@
 @import "screens/more.css";
 @import "screens/setting.css";
 @import "screens/chat.css";
+@import "screens/error.css";
+@import "screens/no-mobile.css";
 
 
 body {
@@ -28,4 +30,6 @@ body {
     padding:2px var(--horizontalspace);
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+  
 }

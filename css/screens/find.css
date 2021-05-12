@@ -4,21 +4,19 @@
     margin-bottom: 12px;
     border-top:var(--frameline);
     border-bottom:var(--frameline);
+    height: 25vh;
+
+    display:flex;
+    flex-direction: column;
+    
 }
 
 .recommended-friends__title{
     font-size: 20px;
     color: var(--greytrans);
+    margin-bottom: 10px;
 }
 
-.recommended-friends span{
-    color:rgba(0, 0, 0, 0.5);
-    margin:100px 0px;
-    display: block;
-    text-align:center;
-    font-size:18px;
-
-}
 
 .open-chat__header{
     display: flex;

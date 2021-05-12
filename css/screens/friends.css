@@ -21,7 +21,7 @@
 }
 
 .friends-screen__channel{
-    margin-top: 20px;
+    margin-top: 10px;
     border-top: var(--frameline);
     padding-top: 15px;
     
@@ -46,6 +46,20 @@
     }
 }
 
+.fav-component{
+    width: 90vw;
+    padding: 4px 0 0 4px;
+
+}
+
+   .fav-component:hover{
+       animation: selectcatAni 0.5s forwards;
+       border-radius: 10px;
+   }
+   
+
+
+/*---splash screen--*/
 .splash__screen {
     position: absolute;
     width: 100vw;
@@ -70,7 +84,7 @@
 .splash__screen span{
     margin-top: 10px;
     font-size: 24px;
-    animation: blurAni 2.0s forwards;
+    animation: blurAni 1s forwards;
 }
 
 @keyframes blurInAni  {
@@ -78,7 +92,7 @@
         filter: none;
     }
     to{
-        filter: drop-shadow( 0px 0px 10px white);
+        filter: drop-shadow( 0px -20px 40px white);
     }
 }
 
@@ -87,7 +101,7 @@
         opacity: 0;
     }
     30%{
-        opacity: 0;
+        opacity: 0.2;
     }
     100%{
         filter: drop-shadow( 0px 0px 5px white);
@@ -108,28 +122,43 @@
    align-self: flex-end;
 }
 .splash__screen-loading :first-child{
-    animation: stepAni 1.6s ease-in-out }
-  
+    animation: stepAni 2.8s ease-in-out ;}
+
 .splash__screen-loading :nth-child(2){
- animation: stepAni 1.2s ease-in-out }
-
+    animation: stepAni 2.6s ease-in-out  ;}
+    
  .splash__screen-loading :nth-child(3){
-    animation: stepAni 0.8s ease-in-out }
+    animation: stepAni 2.4s ease-in-out  ;}
+    
+.splash__screen-loading :nth-child(4){
+    animation: stepAni 2.2s ease-in-out ;}
 
- .splash__screen-loading :nth-child(4){
-  animation: stepAni 0.4s ease-in-out }
+ .splash__screen-loading :nth-child(5){
+    animation: stepAni 1.8s ease-in-out  ;}
 
-.splash__screen-loading :last-child{
-  animation: stepAni 0s ease-in-out }
+ .splash__screen-loading :nth-child(6){
+    animation: stepAni 1.4s ease-in-out  ;}
+
+  .splash__screen-loading :nth-child(7){
+    animation: stepAni 1s ease-in-out  ;}
+
+ .splash__screen-loading :nth-child(8){
+    animation: stepAni 0.6s ease-in-out  ; }
+
+.splash__screen-loading :nth-child(9){
+  animation: stepAni 0.3s ease-in-out ;}
 
 @keyframes stepAni {
     0%{
         opacity: 0;
     }
-  
+    70%{
+        opacity: 0.2;
+    }
     100%{
         opacity: 1;
     }
+   
 }
 
 

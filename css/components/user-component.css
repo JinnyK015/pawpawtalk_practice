@@ -3,14 +3,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 .user-component__column:first-child{
     display: flex;
     align-items: center;
 }
 
-
+.lineup{
+    flex-direction: column;
+    align-items:flex-start;
+}
+.lineup .user-component__column{
+    margin-bottom: 5px;
+}
 
 .user-component__avatar{
     width: 70px;
@@ -69,4 +75,22 @@
 
 .user-componen__name-underbar span{
     color: rgba(247, 113, 80, 0.767);
+}
+.chat-component{
+ padding: 5px;
+}
+.chat-component:hover{
+    animation: selectcatAni 0.5s forwards;
+    border-radius: 10px;
+}
+
+@keyframes selectcatAni {
+    from{
+        background-color:rgba(0,0,0,0);
+        transform: none;
+    }
+    to{
+        background-color:rgba(0,0,0,0.1);
+        transform: scale(1.03);
+    }
 }
