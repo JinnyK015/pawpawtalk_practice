@@ -31,3 +31,7 @@
     flex-direction: row-reverse;
 }
 
+
+.alt-header__column i{
+    margin: 0 10px; 
+}

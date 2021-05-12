@@ -1,15 +1,14 @@
-.alt-header__column i{
-    margin: 0 10px; 
-}
-
 #chat-screen .alt-header {
     position:fixed;
     width: 100%;
     box-sizing: border-box;
     top:0;
+    z-index: 1;
 }
 
-#chat-screen{
+#chat-screen,
+.alt-header,
+.chat-status-bar{
     background-color: var(--babyblue);
     
 }
