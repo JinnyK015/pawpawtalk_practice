@@ -7,7 +7,7 @@
 }
 
 #chat-screen,
-.alt-header,
+#chat-screen>.alt-header,
 .chat-status-bar{
     background-color: var(--babyblue);
     

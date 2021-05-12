@@ -4,7 +4,7 @@
     margin-bottom: 12px;
     border-top:var(--frameline);
     border-bottom:var(--frameline);
-    height: 25vh;
+  
 
     display:flex;
     flex-direction: column;

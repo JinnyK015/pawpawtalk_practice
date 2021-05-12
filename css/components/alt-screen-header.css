@@ -1,11 +1,12 @@
 .alt-header{
     padding: 40px 16px 20px 16px;
-    margin-bottom: 15px;
-
-    display: flex;
+  
+     display: flex;
     justify-content: space-between;
     align-items: center;
+  
 }
+
 
 .alt-header__title{
     font-size: 30px;
@@ -15,6 +16,7 @@
 .alt-header__column{
     width: 33%;
     align-items:center;
+    
 }
 
 .alt-header__column:first-child{
