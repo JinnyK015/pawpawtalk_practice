@@ -3,7 +3,7 @@
 /*components*/
 @import "components/status-bar.css";
 @import "components/nav.css";
-@import "components/screen-header.css";
+@import "components/screen-headers.css";
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/point.css";
