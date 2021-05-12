@@ -8,10 +8,12 @@
   font-weight: 500;
 }
 .welcome-header__title {
+  margin-top:10px;
   margin-bottom: 20px;
   font-size: 28px;
   width: 70%;
   font-weight: bold;
+  color: var(--classicblue);
 }
 
 .welcome-header__text {
@@ -71,4 +73,24 @@
 #login-form input[type="submit"]:active {
   background-color: var(--babyblue);
   color: var(--classicblue);
+}
+
+.welcome-icon i:hover{
+ animation: danceAni 1s ease-in-out infinite;
+} 
+
+.welcome-icon i{
+color: var(--classicblue);
+}
+
+@keyframes danceAni {
+  from{
+    transform: rotateY(0);
+    
+  }
+  to{
+    transform: rotateY(720deg);
+    filter:hue-rotate(360deg);;
+  }
+  
 }

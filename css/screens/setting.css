@@ -48,3 +48,20 @@
     color:white;
     border: 4px dashed white ;
 }
+
+.setting-logout button:hover{
+    animation: logout 1s forwards;
+    cursor:pointer;
+}
+
+@keyframes logout {
+    from{
+
+    }
+    to{
+        background-color: var(--classicblue);
+        color: white;
+
+    }
+    
+}
