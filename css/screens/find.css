@@ -36,7 +36,7 @@
     font-size: 20px;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 3px 5px 3px;
 
 }
 
@@ -137,7 +137,7 @@
 
   .open-post:hover {
     background-color: rgba(0,0,0,0.1);
-    border:5px dashed rgba(0,0,0,0.2);
+    border:3px dashed rgba(0,0,0,0.2);
     border-radius: 20px;
     
     cursor: pointer;

@@ -8,9 +8,11 @@
 .icons__row__icon{
     display:flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color:rgba(0, 0, 0, 0.7);
     width: 25%;
+
   
 
 }

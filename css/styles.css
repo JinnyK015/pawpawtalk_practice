@@ -30,8 +30,6 @@ body {
     padding: 2px var(--horizontalspace);
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
-    height:100vh;
-    
-  
+    margin-top : 100px;
+    margin-bottom: 80px;
 }
