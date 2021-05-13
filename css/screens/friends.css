@@ -80,7 +80,7 @@
 .splash__screen {
     position: absolute;
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     background-color: var(--babyblue);
     top: 0;
     display: flex;
@@ -89,7 +89,7 @@
     align-items: center;
    
     color:white;
-    z-index:3;
+    z-index:4;
     animation: 0.3s hideSplashscreen forwards;
     animation-delay: 2.8s;
 }
