@@ -5,14 +5,16 @@
     background-color: rgba(0,0,0,0.03);
     padding: 20px 0px;
     font-size: 20px;
-    margin-bottom: 20px;
-    margin-top:-20px
+    position:fixed;
+    width: 100%;
+    
 }
 
 #friends-display__link i{
     color:var(--babyblue);
     padding:0px 10px;
 }
+
 
 .friend-screen{
     padding: 0px var(--horizontalspace);

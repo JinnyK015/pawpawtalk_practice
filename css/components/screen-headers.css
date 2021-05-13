@@ -7,10 +7,9 @@
     position: fixed;
     width: 100%;
     box-sizing: border-box;
-    top: 10px;;
+    top: 10px;
     z-index: 1;
     background-color: white;
-   
 }
 
 .screen-header__title{

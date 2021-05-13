@@ -26,6 +26,8 @@
     margin-top:15px;
     align-items: center;
     align-content: center;
+    text-overflow: no-wrap;
+    
 }
 
 
