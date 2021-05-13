@@ -1,5 +1,5 @@
 #no-mobile {
-    position: absolute;
+    position: fixed;
     z-index: 99;
     height: 110vh;
     background-color: var(--classicblue);

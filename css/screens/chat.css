@@ -5,11 +5,15 @@
     top:0;
     z-index: 1;
 }
+#chat-screen{
+    height: 110vh;
+}
 
 #chat-screen,
 #chat-screen>.alt-header,
 .chat-status-bar{
     background-color: var(--babyblue);
+    
     
 }
 
