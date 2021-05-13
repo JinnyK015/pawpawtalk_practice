@@ -27,7 +27,7 @@ body {
 }
 
 .main-screen{
-    padding:2px var(--horizontalspace);
+    padding: 2px var(--horizontalspace);
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
