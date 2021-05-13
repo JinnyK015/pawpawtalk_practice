@@ -17,7 +17,8 @@
 }
 
 .welcome-header__text {
-  width: 70%;
+  align-content: center;
+  white-space: initial;
   opacity: 0.7;
   line-height: 1.4;
 }
