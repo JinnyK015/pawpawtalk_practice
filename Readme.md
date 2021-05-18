@@ -1,4 +1,4 @@
-<h1 align="center">KakaoTalk Clone (messaging app) coding study</h1>
+<h1 align="center">KakaoTalk Clone (messeging app) coding study</h1>
 
 This is my first coding project.<br>
 Before this I was a total beginner.
