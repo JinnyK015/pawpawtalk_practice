@@ -4,8 +4,8 @@ It's my first cording study!
 
 <h3>🧭Goal</h3>
 
--To understand about basic of wed develop, HTML, CSS
--To bulid up messanger appealication using HTML, CSS
+<li>To understand about basic of wed develop, HTML, CSS </li>
+<li>To bulid up messanger appealication using HTML, CSS </li>
 
 <h3>✔Improvments</h3>
 <ul>
