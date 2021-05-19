@@ -5,7 +5,7 @@ This is my first coding project.<br>
 Before this I was a total beginner.
 <h3>Preview</h3>
 
-
+<img src="pawpaw-preview.gif" width="400"> <img src="pawpaw-preview__amin.gif" width="210">
 
 <h3>🧭Goal</h3>
 <ul>
