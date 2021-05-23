@@ -38,7 +38,7 @@
 }
 
 
-.Screen-header__icon .fa-cog:hover {
+.screen-header__icon .fa-cog:hover {
     animation: spincogAni 3s ease-in-out infinite;
 
 }
